@@ -50,6 +50,9 @@ jobs:
         run: ${{env.pathToCi}}/build.cmd BuildMultiPackageListing --root ${{env.pathToCi}} --list-publish-directory $GITHUB_WORKSPACE/${{env.listPublishDirectory}}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Delete index.html
+        run: rm $GITHUB_WORKSPACE/${{env.listPublishDirectory}}/index.html
  
       - name: Setup Pages
         uses: actions/configure-pages@v3
