@@ -16,7 +16,7 @@
   "url": "https://github.com/UnisakiStudio/KawaiiPosing/releases/download/2.0.0/jp.unisakistudio.kawaiiposing-2.0.0.zip?",
   "repo": "https://github.com/UnisakiStudio/KawaiiPosing",
   "dependencies": {
-    "jp.unisakistudio.posingsystem": "^2.0.0"
+    "jp.unisakistudio.posingsystem": "2.0.0"
   },
   "vpmDependencies": {
     "jp.unisakistudio.posingsystem": "^2.0.0"
