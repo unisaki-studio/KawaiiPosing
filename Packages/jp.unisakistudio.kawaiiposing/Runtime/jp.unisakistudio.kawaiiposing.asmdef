@@ -1,0 +1,16 @@
+{
+    "name": "jp.unisakistudio.kawaiiposing",
+    "rootNamespace": "",
+    "references": [
+        "jp.unisakistudio.posingsystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

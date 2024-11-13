@@ -1,0 +1,20 @@
+{
+    "name": "jp.unisakistudio.kawaiiposingeditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7b3938c1b841b444f903f533a30543e0",
+        "GUID:a4e95120250d7c547b338893b5fcf694",
+        "GUID:c3aa5730363babd4d9ea2cc1159e3907"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: SleepTogether_StationTop_PosingSystem
+  m_EditorClassIdentifier: 
+  controls:
+  - name: "\u53F3\u96A3\u306E\u4EBA\u306E\u59FF\u52E2"
+    icon: {fileID: 2800000, guid: fea82a0177d44114d9699318e2b48d20, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 518412bedae04e64f9cd358f8f779d9d, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u53F3\u3067\u5BDD\u308B\u6642\u7528"
+    icon: {fileID: 2800000, guid: b5d4a54719260914fb8ea45e98cb2a85, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: a5add99c3254c31418bcea0e333628d6, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u771F\u3093\u4E2D\u3067\u5BDD\u308B\u6642\u7528"
+    icon: {fileID: 2800000, guid: 9686fa74098bf5b4cb01fb373214985b, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: ff2bfdee12d18744686eb0e806245207, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u5DE6\u3067\u5BDD\u308B\u6642\u7528"
+    icon: {fileID: 2800000, guid: 577230ba42ba3da42b1b20cd52220380, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: d67f6ddd665bd1e4dacbb9ea7d15ef95, type: 2}
+    subParameters: []
+    labels: []
+  - name: "\u5DE6\u96A3\u306E\u4EBA\u306E\u59FF\u52E2"
+    icon: {fileID: 2800000, guid: 844d25baf1b9f2542a0bab9a5f22da59, type: 3}
+    type: 103
+    parameter:
+      name: 
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 601ac153c24a4f741b3e04870383ef2a, type: 2}
+    subParameters: []
+    labels: []
