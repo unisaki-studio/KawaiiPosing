@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.0.0] - 2024-11-14
 ### 修正
 - VCCに対応するためVPMパッケージ化
+- 8bit版が17bit使ってしまっている不具合の修正
 
 ## [1.15.0] - 2024-11-04
 ### 修正
