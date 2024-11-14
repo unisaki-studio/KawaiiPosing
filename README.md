@@ -1,76 +1,110 @@
-# VPM Package Template
+# 可愛いポーズツール
+Version 2.0.0
 
-Starter for making Packages, including automation for building and publishing them.
+# このリポジトリについて
+このリポジトリはBOOTHにて販売しているゆにさきスタジオの「可愛いポーズツール」の使用ソース、リソースです。
 
-Once you're all set up, you'll be able to push changes to this repository and have .zip and .unitypackage versions automatically generated, and a listing made which works in the VPM for delivering updates for this package. If you want to make a listing with a variety of packages, check out our [template-package-listing](https://github.com/vrchat-community/template-package-listing) repo.
+このリポジトリはツール購入者がVCCよりツールを追加する目的で公開されており、購入者以外には使用許諾を出していません。
 
-## ▶ Getting Started
+このリポジトリのソースコード、リソースはオープンソースではありません。
 
-* Press [![Use This Template](https://user-images.githubusercontent.com/737888/185467681-e5fdb099-d99f-454b-8d9e-0760e5a6e588.png)](https://github.com/vrchat-community/template-package/generate)
-to start a new GitHub project based on this template.
-  * Choose a fitting repository name and description.
-  * Set the visibility to 'Public'. You can also choose 'Private' and change it later.
-  * You don't need to select 'Include all branches.'
-* Clone this repository locally using Git.
-  * If you're unfamiliar with Git and GitHub, [visit GitHub's documentation](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources) to learn more.
-* Add the folder to Unity Hub and open it as a Unity Project.
-* After opening the project, wait while the VPM resolver is downloaded and added to your project.
-  * This gives you access to the VPM Package Maker and Package Resolver tools.
 
-## 🚇 Migrating Assets Package
-Full details at [Converting Assets to a VPM Package](https://vcc.docs.vrchat.com/guides/convert-unitypackage)
+# 利用規約
+このリポジトリのソースコード、リソースを使用するためには以下の利用規約に同意の元、BOOTHにて商品を購入する必要があります。
 
-## ✏️ Working on Your Package
+[利用規約](https://github.com/UnisakiStudio/KawaiiPosing/raw/main/Packages/jp.unisakistudio.kawaiiposing/%E5%8F%AF%E6%84%9B%E3%81%84%E3%83%9D%E3%83%BC%E3%82%BA%E3%83%84%E3%83%BC%E3%83%AB%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%89%88%EF%BC%89Ver2.0.0.pdf)
 
-* Delete the "Packages/com.vrchat.demo-template" directory or reuse it for your own package.
-  * If you reuse the package, don't forget to rename it!
-* Update the `.gitignore` file in the "Packages" directory to include your package.
-  * For example, change `!com.vrchat.demo-template` to `!com.username.package-name`.
-  * `.gitignore` files normally *exclude* the contents of your "Packages" directory. This `.gitignore` in this template show how to *include* the demo package. You can easily change this out for your own package name.
-* Open the Unity project and work on your package's files in your favorite code editor.
-* When you're ready, commit and push your changes.
-* Once you've set up the automation as described below, you can easily publish new versions.
+[BOOTH商品ページ（可愛いポーズツール）](https://yunisaki.booth.pm/items/5479202)
 
-## 🤖 Setting up the Automation
+# 概要
+三点トラッキングでも可愛い姿勢で座ったり寝たりしたい！！
 
-Create a repository variable with the name and value described below.
-For details on how to create repository variables, see [Creating Configuration Variables for a Repository](https://docs.github.com/en/actions/learn-github-actions/variables#creating-configuration-variables-for-a-repository).
-Make sure you are creating a **repository variable**, and not a **repository secret**.
+デスクトップでもフルトラみたいな生き生きとしたポーズで写真に写りたい！！
 
-* `PACKAGE_NAME`: the name of your package, like `com.vrchat.demo-template`.
+そんな方におすすめの簡単ポーズ固定ツールです。
 
-Finally, go to the "Settings" page for your repo, then choose "Pages", and look for the heading "Build and deployment". Change the "Source" dropdown from "Deploy from a branch" to "GitHub Actions".
+ツールの導入は、超簡単！！ModularAvatar対応なのでPrefabsポン置きだけ！！
 
-That's it!
-Some other notes:
-* We highly recommend you keep the existing folder structure of this template.
-  * The root of the project should be a Unity project.
-  * Your packages should be in the "Packages" directory.
-  * If you deviate from this folder structure, you'll need to update the paths that assume your package is in the "Packages" directory on lines 24, 38, 41 and 57.
-* If you want to store and generate your web files in a folder other than "Website" in the root, you can change the `listPublicDirectory` item [here in build-listing.yml](.github/workflows/build-listing.yml#L17).
+Expressionメニューで即座に切り替え可能！
 
-## 🎉 Publishing a Release
+VR睡眠したい人や集合写真の前列で中腰になりたいときにもお勧めです！
 
-You can make a release by running the [Build Release](.github/workflows/release.yml) action. The version specified in your `package.json` file will be used to define the version of the release.
+足の高さ変更機能で、コライダーのないベッドでも自由に寝られます！
 
-## 📃 Rebuilding the Listing
+# このツールでできること
+- 現実で椅子や床に座っているときに可愛いｏｒカッコいい姿勢で座れます
+- ＶＲ睡眠用の寝格好もあります！
+- 姿勢は立ち用１５種、椅子用２０種、床用１７種、うつぶせ寝用１６種、あおむけ寝１７用
+- うつぶせ、あおむけはジャンプで素早く切り替え可能
+- メニューの画像は自動生成式！
+- 別商品など好きなアニメーションを自由に設定可能！
+- 既にオリジナルの「Stand」「Crouching」「Prone」姿勢がアバターに設定されている場合、自動で取り込む機能もあり！
+- 「可愛い座りツール」「三点だいしゅきツール」「添い寝ツール」との互換性あり！
+- 顔の向きでアニメーションが変にならないように頭のトラッキングを無効にする機能付き
+- 姿勢の細かな調整のために足を床に固定する機能付き
+- 頭・足・腕すべてを固定すると、SpaceDragなどで自分のアバターを第三者視点で見て、撮影などを楽しめます
 
-Whenever you make a change to a release - manually publishing it, or manually creating, editing or deleting a release, the [Build Repo Listing](.github/workflows/build-listing.yml) action will make a new index of all the releases available, and publish them as a website hosted fore free on [GitHub Pages](https://pages.github.com/). This listing can be used by the VPM to keep your package up to date, and the generated index page can serve as a simple landing page with info for your package. The URL for your package will be in the format `https://username.github.io/repo-name`.
+# 注意事項
+- フルボディトラッキング（フルトラ）の際は使用できません
+- ExpressionParametersのメモリーを16bit使用します（足の高さ機能を抜いた8bit版もあります）
+- より快適に使用するためにはOVR Advanced Settingsなど、SpaceDrag機能のあるツールを併用することをお勧めいたします
+- アニメーションはポンデロニウム研究所様の「桔梗」ちゃんをベースに作成しているため、手足や身長の違うアバターでは想定の姿勢にならないことがあります
+- すでに「PlayableLayersの中のBaseLayerのBase」を使用している場合、自動で結合しますが、特殊な機能を使用している場合はうまくいかないことがあります
+- 動作確認は「ModularAvatar1.10.7」「Non-Destructive Modular Framework1.5.6」で行っています
+- VRCFuryとの互換性があり併用できます。ModularAvatarと互換性のある「VRCFury1.1139.0」で動作確認を行っています
+- デスクトップモードでは一部の姿勢が綺麗に表示されません。「首固定」機能などを使用してください
 
-## 🏠 Customizing the Landing Page (Optional)
+# この商品に含まれているファイル
+- 立っている時用アニメーションファイル１５種
+- 椅子に座っている時用アニメーションファイル２０種
+- 床に座っている時用アニメーションファイル１７種
+- 床に頭を付けている時用アニメーションファイル３３種（うつ伏せ寝１６種、あおむけ寝用１７種）
+- VRChatアバターに設定するBaseLayer用AnimatorContorllerファイルとBrendTreeファイル
+-ExpressionsメニューとExpressionパラメータ
+- 上記データを簡単に設定するためのModularAvatar対応Prefabs
+- ゆにさきスタジオの別のツールや他ショップの商品を併用するための「他商品連携用Prefabs」
 
-The action which rebuilds the listing also publishes a landing page. The source for this page is in `Website/index.html`. The automation system uses [Scriban](https://github.com/scriban/scriban) to fill in the objects like `{{ this }}` with information from the latest release's manifest, so it will stay up-to-date with the name, id and description that you provide there. You are welcome to modify this page however you want - just use the existing `{{ template.objects }}` to fill in that info wherever you like. The entire contents of your "Website" folder are published to your GitHub Page each time.
+# 使い方
+- 同封の「１．可愛いポーズツールライセンスのインストール」を起動し、処理が終了したらキーを押して閉じる
+- 同封のショートカットより「ModularAvatar」と「可愛いポーズツール」をVCCに追加する
+- VCCにて可愛いポーズツールをプロジェクトに追加する
+- 事前にModularAvatarを導入してください
+- 導入したいアバターを右クリックしてメニューから「ゆにさきスタジオ」の中にある「可愛いポーズツール追加」を選択
+- そのまま通常通りアバターをアップロード
+- ゲーム内のExpressionsメニュー（メニューボタン長押し）で、中腰時と座り時とうつ伏せ時と仰向け時の姿勢をそれぞれ一つずつ選択
+- 頭の高さによって中腰、座り、寝格好が自動で切り替わります
+- デスクトップモードの場合はｃキーとｚキーで姿勢が変わります
+- デスクトップモードで寝姿勢を使用する場合はｚを押した後、設定の「寝の高さ閾値」を３５％以上に変更してください
+- 下を向きながら頭を低くするとうつ伏せ、上を向きながら頭を低くするとあおむけになります
+- ジャンプすると仰向けとうつ伏せが切り替わります
+- 不要な姿勢があれば「可愛いポーズ」のインスペクターから無効化や削除ができます
+- 設定メニューから各姿勢に切り替わる頭の高さの閾値を変更できます
+- 「可愛い座りツール」「三点だいしゅきツール」「添い寝ツール」を導入済みのアバターの場合そのままでは使用できないので、ツールの設定をアバターからを削除する機能があります。
+　また「他商品連携用Prefabs」のPrefabsを使用することで可愛いポーズツールと他ツールを併用することができます
 
-## 💻 Technical Stuff
+# 連携設定同封商品
+※連携設定は一方的に弊ショップが作成しているもので、該当商品の作者からの許可は不要と考えて取っていません。
 
-You are welcome to make your own changes to the automation process to make it fit your needs, and you can create Pull Requests if you have some changes you think we should adopt. Here's some more info on the included automation:
+連携設定の配布の希望や配布停止の申し出についてはショップのメッセージからお願いします。
 
-### Build Release Action
-[release.yml](/.github/workflows/release.yml)
+連携設定は連携する商品の購入・ダウンロードが必要です。
 
-This is a composite action combining a variety of existing GitHub Actions and some shell commands to create both a .zip of your Package and a .unitypackage. It creates a release which is named for the `version` in the `package.json` file found in your target Package, and publishes the zip, the unitypackage and the package.json file to this release.
+設定に関して問題が生じた場合には各商品の作者ではなく弊ショップへご連絡ください。
 
-### Build Repo Listing
-[build-listing.yml](.github/workflows/build-listing.yml)
+[『可愛い座りツール』](https://yunisaki.booth.pm/items/3611536)
 
-This is a composite action which builds a vpm-compatible [Repo Listing](https://vcc.docs.vrchat.com/vpm/repos) based on the releases you've created. In order to find all your releases and combine them into a listing, it checks out [another repository](https://github.com/vrchat-community/package-list-action) which has a [Nuke](https://nuke.build/) project which includes the VPM core lib to have access to its types and methods. This project will be expanded to include more functionality in the future - for now, the action just calls its `BuildRepoListing` target.
+[『三点だいしゅきツール』](https://yunisaki.booth.pm/items/3641334)
+
+[『添い寝ツール』](https://yunisaki.booth.pm/items/3670993)
+
+[『少女モーション集vol.1』 by ゆにみのアトリエ](https://unimirai.booth.pm/items/3512020)
+
+[『VRC想定移動モーション（無料配布）』 by カトのVRC道具屋](https://booth.pm/ja/items/1285101)
+
+[『ごろ寝システムEX』 by minminmart](https://minminmart.booth.pm/items/4233545)
+
+
+# For English speakers
+Please read description and how to use this tool with translate.
+
+Please read [terms of use](https://github.com/UnisakiStudio/KawaiiPosing/raw/main/Packages/jp.unisakistudio.kawaiiposing/%E5%8F%AF%E6%84%9B%E3%81%84%E3%83%9D%E3%83%BC%E3%82%BA%E3%83%84%E3%83%BC%E3%83%AB%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%E7%89%88%EF%BC%89Ver2.0.0.pdf) before buy or use this tool and assets.
