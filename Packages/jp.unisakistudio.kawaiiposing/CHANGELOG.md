@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.2] - 2024-12-01
+- 別ツールエラーがある時にアバターをビルドするとゆにさきポーズシステムでエラーが発生するのでNDMF-Consoleに説明を追加
+- 一部のアバターでビルドエラーになる不具合を修正
+- アバター読み込み直後の挙動を改善
+- アバターによっては動作しなくなるため、アバターの元の移動処理を削除するように変更
+
+## [2.1.1] - 2024-11-20
+- ビルドできなくなる不具合を修正
+
 ## [2.1.0] - 2024-11-20
 - デスクトップモードで足や腰が地面に埋まる問題を解決し、どんな姿勢も綺麗に取れるように変更
 - 頭の高さを無視して姿勢を変更できる機能を追加
