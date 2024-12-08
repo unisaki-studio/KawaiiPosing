@@ -2,6 +2,7 @@
 using UnityEditor;
 using Microsoft.Win32;
 using jp.unisakistudio.kawaiiposing;
+using System.Collections.Generic;
 
 namespace jp.unisakistudio.kawaiiposingeditor
 {
@@ -49,5 +50,24 @@ namespace jp.unisakistudio.kawaiiposingeditor
             }
 
         }
+
+        List<string> folderDefines = new()
+        {
+            "Assets/UnisakiStudio/KawaiiPosing",
+        };
+
+        override protected List<string> CheckExistFolder()
+        {
+            List<string> existFolders = base.CheckExistFolder();
+            foreach (var folderDefine in folderDefines)
+            {
+                if (AssetDatabase.IsValidFolder(folderDefine))
+                {
+                    existFolders.Add(folderDefine);
+                }
+            }
+            return existFolders;
+        }
+
     }
 }
