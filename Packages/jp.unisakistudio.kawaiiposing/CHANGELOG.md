@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.1.5] - 2024-12-10
 - 一部のギミックとの競合する問題を解消
+- Unitypackage版を削除するボタンを追加
+- 三点だいしゅきツールはVCC版を公開したので連携用Prefabsは削除
 
 ## [2.1.4] - 2024-12-08
 - アバターによってエラーが出る不具合を修正
