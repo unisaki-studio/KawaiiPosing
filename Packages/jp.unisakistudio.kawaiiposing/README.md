@@ -1,5 +1,5 @@
 # 可愛いポーズツール
-Version 2.1.4
+Version 2.1.5
 
 # 概要
 三点トラッキングでも可愛い姿勢で座ったり寝たりしたい！！
@@ -25,13 +25,12 @@ VR睡眠したい人や集合写真の前列で中腰になりたいときにも
 
 # 注意事項
 - フルボディトラッキング（フルトラ）の際は使用できません
-- ExpressionParametersのメモリーを16bit使用します（足の高さ機能を抜いた8bit版もあります）
+- ExpressionParametersのメモリーを17bit使用します（足の高さ・左右反転機能を抜いた8bit版もあります）
 - より快適に使用するためにはOVR Advanced Settingsなど、SpaceDrag機能のあるツールを併用することをお勧めいたします
 - アニメーションはポンデロニウム研究所様の「桔梗」ちゃんをベースに作成しているため、手足や身長の違うアバターでは想定の姿勢にならないことがあります
 - すでに「PlayableLayersの中のBaseLayerのBase」を使用している場合、自動で結合しますが、特殊な機能を使用している場合はうまくいかないことがあります
-- 動作確認は「ModularAvatar1.10.7」「Non-Destructive Modular Framework1.5.6」で行っています
-- VRCFuryとの互換性があり併用できます。ModularAvatarと互換性のある「VRCFury1.1139.0」で動作確認を行っています
-- デスクトップモードでは一部の姿勢が綺麗に表示されません。「首固定」機能などを使用してください
+- 動作確認は「ModularAvatar1.11.0」「Non-Destructive Modular Framework1.6.1」で行っています
+- VRCFuryとの互換性があり併用できます。ModularAvatarと互換性のある「VRCFury1.1150.0」で動作確認を行っています
 - このツールはWindows向けです。LinuxやMacosのUnityでは使用できません
 
 # この商品に含まれているファイル
@@ -40,7 +39,6 @@ VR睡眠したい人や集合写真の前列で中腰になりたいときにも
 - 床に座っている時用アニメーションファイル１７種
 - 床に頭を付けている時用アニメーションファイル３３種（うつ伏せ寝１６種、あおむけ寝用１７種）
 - VRChatアバターに設定するBaseLayer用AnimatorContorllerファイルとBrendTreeファイル
--ExpressionsメニューとExpressionパラメータ
 - 上記データを簡単に設定するためのModularAvatar対応Prefabs
 - ゆにさきスタジオの別のツールや他ショップの商品を併用するための「他商品連携用Prefabs」
 

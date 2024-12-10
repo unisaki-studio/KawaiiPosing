@@ -51,7 +51,7 @@ namespace jp.unisakistudio.kawaiiposingeditor
 
         }
 
-        List<string> folderDefines = new()
+        private readonly List<string> folderDefines = new()
         {
             "Assets/UnisakiStudio/KawaiiPosing",
         };

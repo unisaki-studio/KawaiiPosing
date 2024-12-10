@@ -85,6 +85,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5682723799641153210, guid: ebbb07b93f9f2a6409f9eb86f5f4a75c, type: 3}
+      propertyPath: parameters.Array.data[23].localOnly
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5682723799641153210, guid: ebbb07b93f9f2a6409f9eb86f5f4a75c, type: 3}
       propertyPath: parameters.Array.data[24].localOnly
       value: 1
       objectReference: {fileID: 0}
