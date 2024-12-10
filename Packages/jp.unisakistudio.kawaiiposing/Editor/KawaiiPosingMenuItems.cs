@@ -25,10 +25,6 @@ namespace jp.unisakistudio.kawaiiposingeditor
         static public void AddPrefab02() { AddPrefab("可愛い座り[男]"); }
         [MenuItem("GameObject/ゆにさきスタジオ/他商品連携用Prefabs/可愛い座り(女)ツール追加", false, 31)]
         static public void AddPrefab03() { AddPrefab("可愛い座り[女]"); }
-        [MenuItem("GameObject/ゆにさきスタジオ/他商品連携用Prefabs/三点だいしゅき(男)ツール追加", false, 32)]
-        static public void AddPrefab04() { AddPrefab("三点だいしゅき[男]"); }
-        [MenuItem("GameObject/ゆにさきスタジオ/他商品連携用Prefabs/三点だいしゅき(女)ツール追加", false, 33)]
-        static public void AddPrefab05() { AddPrefab("三点だいしゅき[女]"); }
         [MenuItem("GameObject/ゆにさきスタジオ/他商品連携用Prefabs/添い寝ツール追加", false, 34)]
         static public void AddPrefab06() { AddPrefab("添い寝"); }
         [MenuItem("GameObject/ゆにさきスタジオ/他商品連携用Prefabs/ごろ寝システムEX追加", false, 35)]
