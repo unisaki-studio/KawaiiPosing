@@ -1,7 +1,7 @@
 {
     "name":"可愛いポーズツール",
     "id":"jp.unisakistudio.tools",
-    "url":"https://UnisakiStudio.github.io/KawaiiPosing/index.json",
+    "url":"https://unisaki-studio.github.io/KawaiiPosing/index.json",
     "author":{
         "email":"unisaki.studio@gmail.com",
         "name":"UnisakiStudio",
@@ -9,12 +9,12 @@
     },
     "description":"可愛いポーズツールは3点トラッキングやデスクトップモードでも可愛いポーズが撮れるようにするVRChatアバター向けギミックの設定ツールです",
     "infoLink":{
-        "url":"https://github.com/UnisakiStudio/UnisakiStudioListing",
+        "url":"https://github.com/unisaki-studio/KawaiiPosing",
         "text":"View on GitHub"
     },
     "bannerUrl":"banner.png",
     "githubRepos":[
-        "UnisakiStudio/KawaiiPosing",
-	"UnisakiStudio/PosingSystem"
+        "unisaki-studio/KawaiiPosing",
+	"unisaki-studio/PosingSystem"
     ]
 }
